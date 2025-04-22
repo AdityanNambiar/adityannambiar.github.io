@@ -1896,3 +1896,23 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.cv-button-wrapper {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4e4e4e;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #3a3a3a;
+}
